@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+
+header
+{
+    background-image: url(images/burgerfries.jpg); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+    position: relative;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: fantasy;
+    font-size: 17px;
+    
+}
+
+.main-nav li ul
+{
+    display: none;
+    position: absolute;
+    padding: 8px;
+    border-radius: 0px 0px 4px 4px; 
+}
+
+.main-nav li:hover ul
+{
+    display: block;
+}
+
+.main-nav li ul li 
+{
+    width:100px;
+    border-radius: 4px;
+}
+
+.main-nav li ul li a
+{
+  padding: 0px 0px; 
+    
+}
+
+.main-nav li ul li a:hover
+{
+  
+}
+.active, main-nav li:hover
+{
+    background:black ;
+    border-radius:3px ;
+}
+
+.main-nav  li a:hover
+{
+    color: darkorange;
+}
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+
+
+.contact-info{
+    width: 100%;
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    top: 25%;
+    height: 420px;
+    margin-top: 90px;
+    position: absolute;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.contact{
+    padding: 0 40px;
+    margin: 0 1px;
+    width: calc
+(33% - 20px);
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-icon {
+   font-size: 28px; 
+    
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.7s linear;
+    
+}
+
+.contact:hover .card-icon {
+   background: none;
+    color: #ff6348;
+    transform: scale(1.6);
+}
+
+.contact p{
+    margin-top: 60px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.7s linear;
+}
+
+.contact:hover p {
+    max-height: 40px;
+    opacity: 1;
+}
+
+
+
+.card-icon img{
+    width: 90;
+    height: 60;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:800px) {
+    .contact-info{
+        flex-direction: column;
+    }
+    .contact{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
