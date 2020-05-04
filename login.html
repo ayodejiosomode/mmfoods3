@@ -3,8 +3,15 @@
     <head>
         <title>Login</title>
         <link href="login.css" rel="stylesheet">
+         <script type="text/javascript" src="time.js"></script>
     </head>
     <body>
+        
+        <body onLoad="renderTime();">
+        <div id="clockDisplay" class="container"></div>
+    </body>
+        
+        
         <header>
             <div class="row">
             <div class="logo">
@@ -12,16 +19,16 @@
                 <img  src="images/mmfoods.png">
                 </a>
             </div>
-
+            
            <ul class="main-nav">
                <li class="active"><a href="index.html">HOME</a></li>
                <li><a href="aboutus.html">ABOUT US</a></li>
                     <li><a href="contactus.html">CONTACT US</a></li>
-
+                       
                     <li><a href="faq.html">FAQ</a></li>
-
-            </ul>
-
+                
+            </ul> 
+            
             </div>
         </header>
        <div class="loginbox">
@@ -29,14 +36,14 @@
            <h1>Login Here</h1>
            <form>
            <p>Username</p>
-               <input type="text" name="" placeholder="Enter Username"required>
+               <input type="text" name="" placeholder="Enter Username">
                <p>Password</p>
-               <input type="password" name="" placeholder="Enter Password"required>
+               <input type="password" name="" placeholder="Enter Password">
                <input type="submit" name="" value="Login">
                <a href="#">Lost your password?</a>
                <a href="registrationform.html">Don't have an account?</a>
-
+           
            </form>
-        </div>
+        </div> 
     </body>
 </html>
