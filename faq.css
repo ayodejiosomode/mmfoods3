@@ -1,18 +1,15 @@
-body {
-    background-image: url(images/burgerfries.jpg); 
-}
 
 
 *{
     margin: 0;
     padding: 0;
     font-family:  "Lato", sans-serif;
-    
+
 }
 
 header
 {
-   
+   background-image: url(images/burgerfries.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -46,7 +43,7 @@ header
     display: none;
     position: absolute;
     padding: 8px;
-    border-radius: 0px 0px 4px 4px; 
+    border-radius: 0px 0px 4px 4px;
 }
 
 .main-nav li:hover ul
@@ -54,7 +51,7 @@ header
     display: block;
 }
 
-.main-nav li ul li 
+.main-nav li ul li
 {
     width:100px;
     border-radius: 4px;
@@ -62,12 +59,12 @@ header
 
 .main-nav li ul li a
 {
-  padding: 0px 0px;  
+  padding: 0px 0px;
 }
 
 .main-nav li ul li a:hover
 {
-   
+
 }
 .active, main-nav li:hover
 {
@@ -100,8 +97,8 @@ header
     position: absolute;
     top: 0.1%;
     left: 30%;
-    
-        
+
+
 }
 
 .box .heading {
@@ -133,7 +130,7 @@ details {
 }
 
 details summary {
- outline: none;   
+ outline: none;
 }
 
 
@@ -158,23 +155,3 @@ details summary {
     top: 20%;
     left: 0.%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
