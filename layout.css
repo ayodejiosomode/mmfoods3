@@ -35,7 +35,7 @@ header
     padding: 5px 20px;
     font-family: "Lato", sans-serif;
     font-size: 15px;
-    
+
 }
 
 .main-nav li ul
@@ -43,7 +43,7 @@ header
     display: none;
     position: absolute;
     padding: 8px;
-    border-radius: 0px 0px 4px 4px; 
+    border-radius: 0px 0px 4px 4px;
 }
 
 .main-nav li:hover ul
@@ -51,7 +51,7 @@ header
     display: block;
 }
 
-.main-nav li ul li 
+.main-nav li ul li
 {
     width:100px;
     border-radius: 4px;
@@ -59,13 +59,13 @@ header
 
 .main-nav li ul li a
 {
-  padding: 0px 0px; 
-    
+  padding: 0px 0px;
+
 }
 
 .main-nav li ul li a:hover
 {
-   
+
 }
 .active, main-nav li:hover
 {
@@ -83,14 +83,14 @@ header
     width: 150px;
     height: auto;
     float: left;
-    margin-left: -40px; 
+    margin-left: -40px;
 }
 
 .row
 {
     max-width: 1200px;
     margin: auto;
-    
+
 }
 
 .hero
@@ -99,8 +99,8 @@ header
     width: 650px;
     margin-left: 50px;
     margin-top: 0px;
-    transition: 0.7s linear;
-    
+    transition: 0.3s linear;
+
 }
 
 h1
@@ -111,7 +111,7 @@ h1
     text-align: center;
     margin-top: 150px;
     font-family: "Lato", sans-serif;
-    
+
 }
 
 .button
@@ -168,27 +168,3 @@ h1
     top: 20%;
     left: 0.%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
