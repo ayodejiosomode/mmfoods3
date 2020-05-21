@@ -1,16 +1,14 @@
-
-
-*{
+body
+{
+    background-image: url(/images/whitebackground2.jpg);
+    width: 100%;
     margin: 0;
     padding: 0;
-    font-family:  "Lato", sans-serif;
-
 }
+
 
 header
 {
-   background-image: url(images/burgerfries.jpg);
-    height: 100vh;
     background-size: cover;
     background-position: center;
 }
@@ -31,10 +29,10 @@ header
 
 .main-nav li a
 {
-    color: white;
+    color: purple;
     text-decoration: none;
     padding: 5px 20px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
 
@@ -43,7 +41,7 @@ header
     display: none;
     position: absolute;
     padding: 8px;
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .main-nav li:hover ul
@@ -51,7 +49,7 @@ header
     display: block;
 }
 
-.main-nav li ul li
+.main-nav li ul li 
 {
     width:100px;
     border-radius: 4px;
@@ -59,16 +57,15 @@ header
 
 .main-nav li ul li a
 {
-  padding: 0px 0px;
+  padding: 0px 0px;  
 }
 
 .main-nav li ul li a:hover
 {
-
+   
 }
 .active, main-nav li:hover
 {
-    background:black ;
     border-radius:3px ;
 }
 
@@ -97,8 +94,8 @@ header
     position: absolute;
     top: 0.1%;
     left: 30%;
-
-
+    
+        
 }
 
 .box .heading {
@@ -107,7 +104,7 @@ header
     padding: 10px;
     color: #fff;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .faqs {
@@ -124,23 +121,23 @@ details {
     padding: 10px 20px;
     border-radius: 7px;
     margin-top: 20px;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
 }
 
 details summary {
- outline: none;
+ outline: none;   
 }
 
 
 .container {
-    font-family: arial;
-    font-weight: bold;
-    color: white;
-    border:  white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: ;
+    color: purple;
+    border:  purple;
     width: 150px;
-    padding: 10px;
+    padding: 1px;
     text-align: center;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -150,8 +147,25 @@ details summary {
     margin-left: 190px;
     margin: auto;
     border-radius: 7px;
-    box-shadow: 1px 2px 4px rgba(0,0,0);
     box-sizing: border-box;
-    top: 20%;
+    top: 2%;
     left: 0.%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

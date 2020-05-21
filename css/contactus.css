@@ -1,17 +1,14 @@
-*{
+body
+{
+    background-image: url(/images/whitebackground2.jpg);
+    width: 100%;
     margin: 0;
     padding: 0;
-    font-family: "Lato", sans-serif;
-    box-sizing: border-box;
 }
-
-
 
 
 header
 {
-    background-image: url(images/burgerfries.jpg); 
-    height: 100vh;
     background-size: cover;
     background-position: center;
 }
@@ -32,10 +29,10 @@ header
 
 .main-nav li a
 {
-    color: white;
+    color: purple;
     text-decoration: none;
     padding: 5px 20px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     
 }
@@ -71,7 +68,6 @@ header
 }
 .active, main-nav li:hover
 {
-    background:black ;
     border-radius:3px ;
 }
 
@@ -114,12 +110,12 @@ header
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: purple;
     cursor: pointer;
 }
 
 .card-icon {
-   font-size: 28px; 
+   font-size: 20px; 
     
     width: 60px;
     height: 40px;
@@ -138,11 +134,11 @@ header
 
 .contact p{
     margin-top: 60px;
-    font-weight: 300;
-    letter-spacing: 1px;
+    spacing: 1px;
     max-height: 0;
     opacity: 0;
-    transition: 0.7s linear;
+    transition: 0.3s linear;
+    font-size: 30;
 }
 
 .contact:hover p {
@@ -170,12 +166,12 @@ header
 }
 
 .container {
-    font-family: arial;
-    font-weight: bold;
-    color: white;
-    border:  white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: ;
+    color: purple;
+    border:  purple;
     width: 150px;
-    padding: 10px;
+    padding: 1px;
     text-align: center;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -185,11 +181,9 @@ header
     margin-left: 190px;
     margin: auto;
     border-radius: 7px;
-    box-shadow: 1px 2px 4px rgba(0,0,0);
     box-sizing: border-box;
-    top: 20%;
+    top: 2%;
     left: 0.%;
-    
 }
 
 
