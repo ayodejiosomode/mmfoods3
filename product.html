@@ -1,37 +1,142 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <link href="./css/product.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="container">
-            <!--slider-box-->
-            <div class="box">
-                <p class="marvel">TABLE WATER</p>
-                <!--model-->
-                <img src="images/tablewater.jpg" class="model">
-                <!--details-->
-                <div class="details">
-                    <!--logo-character-->
-                    <h3 class="character">Lifespan Water</h3>
-                    <!--character-details-->
-                    <p>30$ each</p>
-                </div>
-
-
-
-
-            </div>
-
-
-        </div>
-
-
-
-       <script src="" type="text/javascript">
-
-
-        </script>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/product.css" />
+  </head>
+  <body>
+    <body onLoad="renderTime();">
+        <div id="clockDisplay" class="container"></div>
     </body>
+        
+        
+        <header>
+        <div class="row">
+            <div class="logo">
+            <a href="index.html">
+                <img  src="images/mmfoods.png">
+                </a>
+            </div>
+            
+           <ul class="main-nav">
+               <li class="active"><a href="index.html">HOME</a></li>
+               <li><a href="contactus.html">CONTACT US </a></li>
+               <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+               </ul>
+        
+    <div>
+      <table style="width: 100%;">
+        <tr>
+          <th></th>
+
+          <th>Drinks</th>
+          <th></th>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="card">
+              <img src="images/orangejuice.jpg" alt="Juice" style="width: 100%;" />
+              <h1>Orange juice</h1>
+              <p class="price">$150</p>
+              <p>Pineapple juice..</p>
+              <p><button class="add-cart cart1">Add to Cart</button></p>
+            </div>
+          </td>
+          <td>
+            <div class="card">
+              <img
+                src="images/pineapplejuice.jpg"
+                alt="Wine"
+                style="width: 100%;"
+              />
+              <h1>Pineapple Juice</h1>
+              <p class="price">$120</p>
+              <p>Hot chocolates drink</p>
+              <p><button class="add-cart cart2">Add to Cart</button></p>
+            </div>
+          </td>
+          <br />
+
+          <td>
+            <div class="card">
+              <img src="./images/redwine.jpg" alt="Wine" style="width: 100%;" />
+              <h1>Wine</h1>
+              <p class="price">$700</p>
+              <p>Wine</p>
+              <p><button class="add-cart cart3">Add to Cart</button></p>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <th></th>
+
+          <th>Dishes</th>
+          <th></th>
+        </tr>
+
+
+        <tr>
+          <td>
+            <div class="card">
+              <img
+                src="./images/frieschicken.jpg"
+                alt="Spicy fried chicken"
+                style="width: 100%;"
+              />
+              <h1>
+                Spicy fried chicken
+              </h1>
+              <p class="price">$590</p>
+              <p>Spicy fried chicken..</p>
+              <p><button class="add-cart cart4">Add to Cart</button></p>
+            </div>
+          </td>
+          <td>
+            <div class="card">
+              <img
+                src="images/currychicken.jpg"
+                alt="Curry Chicken"
+                style="width: 100%;"
+              />
+              <h1>Curry Chicken</h1>
+              <p class="price">$510</p>
+              <p>Curry Chicken..</p>
+              <p><button class="add-cart cart5">Add to Cart</button></p>
+            </div>
+          </td>
+
+          <td>
+            <div class="card">
+              <img
+                src="images/donut.jpg"
+                alt="Doughnut"
+                style="width: 100%;"
+              />
+              <h1>Doughnut</h1>
+              <p class="price">$250</p>
+              <p>Doughnut..</p>
+              <p><button class="add-cart cart6">Add to Cart</button></p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+        <td>
+          <button class="button" onclick="location.href='cart.html'">
+            Go to cart
+          </button>
+        </td>
+        <td></td>
+
+        </tr>
+      </table>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
 </html>

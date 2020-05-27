@@ -41,7 +41,7 @@ header
     display: none;
     position: absolute;
     padding: 8px;
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .main-nav li:hover ul
@@ -49,7 +49,7 @@ header
     display: block;
 }
 
-.main-nav li ul li
+.main-nav li ul li 
 {
     width:100px;
     border-radius: 4px;
@@ -57,12 +57,12 @@ header
 
 .main-nav li ul li a
 {
-  padding: 0px 0px;
+  padding: 0px 0px;  
 }
 
 .main-nav li ul li a:hover
 {
-
+   
 }
 .active, main-nav li:hover
 {
@@ -83,23 +83,23 @@ header
 
 
 .box {
-    width: 320px;
+    width: 70%;
     margin: auto;
     background: #fff;
     border-radius: 7px;
-    box-shadow: 1px 2px 4px rgba(0,0,0);
+    
     box-sizing: border-box;
     padding: 1px;
     margin-top: 90px;
     position: absolute;
-    top: 0.1%;
-    left: 30%;
-
-
+    top: 2%;
+    left: 15%;
+    
+        
 }
 
 .box .heading {
-  background: #7800CF;
+  background: purple;
    border-radius: 7px 7px 0px 0px;
     padding: 10px;
     color: #fff;
@@ -127,7 +127,7 @@ details {
 }
 
 details summary {
- outline: none;
+ outline: none;   
 }
 
 
@@ -151,3 +151,21 @@ details summary {
     top: 2%;
     left: 0.%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

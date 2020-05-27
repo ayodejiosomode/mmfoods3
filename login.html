@@ -6,12 +6,12 @@
          <script type="text/javascript" src="time.js"></script>
     </head>
     <body>
-
+        
         <body onLoad="renderTime();">
         <div id="clockDisplay" class="container"></div>
     </body>
-
-
+        
+        
         <header>
             <div class="row">
             <div class="logo">
@@ -19,16 +19,16 @@
                 <img  src="images/mmfoods.png">
                 </a>
             </div>
-
+            
            <ul class="main-nav">
                <li class="active"><a href="index.html">HOME</a></li>
                <li><a href="aboutus.html">ABOUT US</a></li>
                     <li><a href="contactus.html">CONTACT US</a></li>
-
+                       
                     <li><a href="faq.html">FAQ</a></li>
-
-            </ul>
-
+                
+            </ul> 
+            
             </div>
         </header>
        <div class="loginbox">
@@ -39,15 +39,15 @@
                <input type="text" name="uname" placeholder="Enter Username" required>
                <p>Password</p>
                <input type="password" name="psw" placeholder="Enter Password" required>
-
+               
                <input type="submit" onclick="check(this.form)" value="Login">
-
+               
                <a href="#">Lost your password?</a>
                <a href="registrationform.html">Don't have an account?</a>
-
+           
            </form>
-        </div>
-
+        </div> 
+        
          <script>
 			function check(form){
 				if (form.uname.value == "username" && form.psw.value == "password")
