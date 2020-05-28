@@ -1,3 +1,10 @@
+body {
+    background-image: url(/images/whitebackground6.jpg);
+    background-size: cover;
+  background-position: center;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -12,8 +19,7 @@ html {
 header {
   color: grey;
   height: 15vh;
-  background-size: cover;
-  background-position: center;
+  
 }
 
 ul {
@@ -28,7 +34,7 @@ ul li {
 
 ul li a {
   text-decoration: none;
-  color: #8E4D3F ;
+  color: purple;
   padding: 5px 20px;
   border: 1px solid transparent;
   transition: 0.6s ease;

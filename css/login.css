@@ -1,16 +1,13 @@
 body
 {
-    background-image: url(/images/whitebackground2.jpg);
+    background-image: url(/images/whitebackground6.jpg);
     width: 100%;
     margin: 0;
     padding: 0;
-}
-
-header
-{
     background-size: cover;
     background-position: center;
 }
+
 
 .main-nav
 {

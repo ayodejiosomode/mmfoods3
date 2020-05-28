@@ -1,17 +1,12 @@
 body
 {
-    background-image: url(/images/whitebackground2.jpg);
+    background-image: url(/images/whitebackground6.jpg);
     width: 100%;
     margin: 0;
     padding: 0;
-}
-
-header
-{
     background-size: cover;
     background-position: center;
 }
-
 .main-nav
 {
     float: right;
@@ -124,6 +119,9 @@ color: darkorange;
     padding-right: 30px;
 }
 
+.about h2 {
+    color: purple;
+}
 .about p {
     text-align: justify;
     margin-bottom: 20px;
